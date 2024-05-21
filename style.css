@@ -1,0 +1,410 @@
+
+body{
+    font-family: "Poppins", sans-serif;
+    
+}
+.pre__header{
+    background-color: #f0f0f1;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+}
+.nav li{
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.logo a{
+    
+    font-style: normal;
+    color: #2a2a2a;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.logo span{
+    
+    font-weight: 700;
+    color: #656c74;
+}
+
+.main__header{
+    background-color: #FFFFFF;
+}
+.nav a:hover{
+    color: #656c74;
+}
+.content__page{
+    background-image: url(./images/banner_bg.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 270px 0px 210px 0px;
+    position: relative;
+    
+}
+
+.couter__content {
+    position: absolute;
+    top: 0;
+    background-color: rgba(250, 250, 250, 0.3);
+    width: 100%;
+    gap: 40px;
+
+}
+
+.box1 h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.box1 span{
+    font-size: 14px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.content__text{
+    color: #FFFFFF;
+}
+.content__text h5{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.content__text h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.button{
+    font-size: 14px;
+    padding: 12px 18px;
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: all .3s;
+}
+
+.button:hover{
+    opacity: 0.9;
+}
+
+
+
+.carousel-container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%; 
+}
+
+.item {
+    width: 200px; 
+    height: 150px; 
+}
+
+.item img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    display: contents;
+}
+
+.left,.address{
+    width: 100%;
+}
+
+.left h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+}
+
+  .left p{
+    font-size: 14px;
+    color: #2a2a2a;
+  }
+.address span{
+    font-size: 14px;
+    color: #2a2a2a;
+    line-height: 25px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.text-btn a{
+    font-size: 14px;
+    color: #7c838b;
+}
+
+.address{
+    margin-left: 20px;
+}
+
+.Venues{
+    margin: 100px 0px;
+}
+
+.address h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 20px;
+}
+
+.address i{
+    margin-right: 10px;
+    color: #2a2a2a;
+    
+}
+
+.map,.map img{
+    width: 100%;
+    overflow: hidden;
+}
+.Tickets{
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.Tickets h1{
+    font-size: 30px;
+    font-weight: 800;
+    color: #2a2a2a;
+}
+.down_content {
+    background-color: #656c74;
+    width: 100%;
+    position: relative;
+    gap: 20px;
+    display: inline-block;
+}
+
+.left__content {
+    width: 40%;
+    float: left;
+    background-color: rgba(124, 131, 139, 0.3);
+    margin-right: 20px;
+    height: 100%;
+    position: absolute;
+    
+}
+
+
+.right__content {
+    width: 60%;
+    font-size: 14px;
+    float: right; 
+    
+    
+}
+.margin{
+    margin-left: 20px;
+}
+.button2 {
+    padding: 12px 18px;
+    color: #2a2a2a;
+    background-color: #ffffff;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+.button2:hover{
+    opacity: 0.9;
+}
+.box1 {
+    width: 100%;
+}
+
+.box1 img{
+    width: 100%;
+}
+
+.right__content span{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+
+.price_box{
+    background-color: rgba(124, 131, 139, 0.3);
+    border: none;
+    width: 52%;
+    margin: 20px 0 30px;
+    padding: 20px;
+    
+}
+
+.price_box span{
+    font-size: 14px;
+}
+.price_box span .bold{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.discover{
+    width: 100%;
+    position: relative;
+    background-color: #656c74;
+    padding: 120px 0px;
+    
+}
+.purchage{
+    height: auto;
+    background: aquamarine;
+    position: absolute;
+    text-align: center;
+    width: 10%;
+    top: 0;
+    bottom: 0;
+    background-color: #6C737B;
+    margin-right: 20px;
+}
+.purchage_button{
+    top: 50%;
+    position: absolute;
+    transform: rotate(-90deg);
+}
+.purchage a{
+    display: inline-block;
+    font-size: 14px;
+    padding: 12px 18px;
+    background-color: #fff;
+    color: #2a2a2a;
+    text-align: center;
+    
+}
+
+.purchage_button a:hover{
+    opacity: 0.9;
+}
+
+.down_content2 h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #2a2a2a;
+    margin-bottom: 25px;
+}
+
+.marg{
+    margin-left: auto;
+}
+
+.container{
+    max-width: 1140px !important;
+}
+
+.discover__content{
+    width: 100%;
+    background: #FFFFFF;
+    color: #2a2a2a;
+    padding: 30px;
+}
+
+.discover__content h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.discover__content h6,
+.upper__bottom span,
+.upper__bottom a,
+.upper__footer h6,
+.upper__footer span
+{
+    font-size: 14px;
+    color: #2a2a2a;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.discover__content i{
+    text-align: center;
+    font-size: 18px;
+    color: #858b93;
+    margin-right: 5px;
+}
+
+.news__latter{
+    background-color: #7c838b;
+    padding: 30px 0px;
+    color: #fff;
+}
+
+
+input[type = 'email']{
+    border: none;
+    background-color: #7c838b;
+   
+   
+}
+
+.btn_submit{
+    font-size: 14px;
+    padding: 12px 18px;
+    background-color: #343a3e;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: ease-in 0.3s;
+    width: 70%;
+}
+
+.btn_submit:hover{
+    background-color: #656c74;;
+}
+::placeholder{
+    color: #fff !important;
+}
+
+.input__bottamline{
+    width: 100%;
+    border-bottom: 1px solid rgba(250, 250, 250, 0.5);
+}
+
+.news__latter h4{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.upper__bottom{
+    width: 100%;
+    padding-top: 60px;
+    margin-bottom: 25px;
+}
+.upper__bottom h4{
+    font-size: 20px;
+    color: #2a2a2a;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.upper__footer{
+    width: 100%;
+    border-bottom: 1px solid #e4e4e4;
+}
+.clr {
+    font-weight: 800 !important;
+  }
